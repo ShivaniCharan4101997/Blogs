@@ -1,4 +1,4 @@
-import { topics } from "../db/Topics.js";
+import { topics } from "../db/Topics.ts";
 
 function TopicsList() {
     return (

@@ -1,4 +1,4 @@
-import { trends } from "../db/Trends.js";
+import { trends } from "../db/Trends.ts";
 
 interface Trend {
     title: string;

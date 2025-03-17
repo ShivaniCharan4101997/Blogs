@@ -1,4 +1,8 @@
-export const topics = [
+type Topic = {
+    name: string;
+};
+
+export const topics: Topic[] = [
     { name: "Web Development" },
     { name: "Artificial Intelligence" },
     { name: "Cybersecurity" },
@@ -6,5 +10,3 @@ export const topics = [
     { name: "Blockchain" },
     { name: "UI/UX Design" }
 ];
-
-
